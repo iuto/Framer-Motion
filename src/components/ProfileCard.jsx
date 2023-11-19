@@ -6,7 +6,7 @@ const UserProfileCard = ({ user }) => {
     <div className="flex justify-center items-center w-full h-screen bg-gray-100">
       <div className="max-w-xl w-full rounded-lg shadow-xl bg-white text-center p-4 sm:p-8">
         <div className="avatar flex justify-center">
-          <div className="w-32 h-32 rounded-full border-4 border-gray-300 overflow-hidden">
+          <div className="w-32 h-32 rounded-full border-2 border-gray-300 overflow-hidden">
             <img src={user.avatarUrl} alt="Profile" className="w-full h-full object-cover" />
           </div>
         </div>
@@ -35,7 +35,7 @@ const UserProfileCard = ({ user }) => {
 const user = {
     name: 'いうと',
     bio: '高校1年生・16歳',
-    avatarUrl: 'https://pbs.twimg.com/profile_images/1317064902058545152/4Ek5UdxK_400x400.jpg',
+    avatarUrl: '/icon.webp',
     socialLinks: [
     { name: 'twitter', icon: <FaXTwitter />, url: 'https://twitter.com/iuto_025' },
     { name: 'instagram', icon: <FaInstagram />, url: 'https://www.instagram.com/iuto_025' },
