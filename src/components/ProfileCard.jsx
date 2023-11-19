@@ -37,10 +37,10 @@ const user = {
     bio: '高校1年生・16歳',
     avatarUrl: 'https://pbs.twimg.com/profile_images/1317064902058545152/4Ek5UdxK_400x400.jpg',
     socialLinks: [
-    { name: 'twitter', icon: <FaXTwitter />, url: 'https://twitter.com/yourusername' },
-      { name: 'instagram', icon: <FaInstagram />, url: 'https://www.instagram.com/yourusername' },
-      { name: 'github', icon: <FaGithub />, url: 'https://github.com/yourusername' },
-      // LinkedInとメールを削除しました
+    { name: 'twitter', icon: <FaXTwitter />, url: 'https://twitter.com/iuto_025' },
+    { name: 'instagram', icon: <FaInstagram />, url: 'https://www.instagram.com/iuto_025' },
+    { name: 'github', icon: <FaGithub />, url: 'https://github.com/iuto' },
+    { name: 'sizukana', icon: <img src="/sizukana.webp"/>, url: 'https://sizu.me/iuto' },
     ],
   };
 
