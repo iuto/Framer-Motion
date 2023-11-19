@@ -3,15 +3,15 @@ import { FaInstagram, FaXTwitter, FaGithub } from "react-icons/fa6";
 
 const UserProfileCard = ({ user }) => {
   return (
-    <div className="flex justify-center items-center w-full h-screen bg-gray-100">
-      <div className="max-w-xl w-full rounded-lg shadow-xl bg-white text-center p-4 sm:p-8">
+    <div className="flex justify-center items-center mx-4">
+      <div className="max-w-xl w-full rounded-lg shadow-xl bg-white text-center p-8 sm:p-8">
         <div className="avatar flex justify-center">
-          <div className="w-32 h-32 rounded-full border-2 border-gray-300 overflow-hidden">
+          <div className="w-32 h-32 rounded-full border-4 border-gray-300 overflow-hidden">
             <img src={user.avatarUrl} alt="Profile" className="w-full h-full object-cover" />
           </div>
         </div>
         <div className="mt-4">
-          <h1 className="font-bold text-xl sm:text-2xl mb-2">{user.name}</h1>
+          <h1 className="text-xl sm:text-2xl mb-2">{user.name}</h1>
           <p className="text-gray-700 text-sm sm:text-base mb-4">{user.bio}</p>
         </div>
         <div className="flex justify-center space-x-4">
